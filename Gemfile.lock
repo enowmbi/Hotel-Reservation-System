@@ -64,6 +64,7 @@ GEM
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
+    devise-bootstrapped (0.1.1)
     devise_token_auth (1.1.0)
       devise (> 3.5.2, < 4.7)
       rails (>= 4.2.0, < 6)
@@ -223,6 +224,8 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
   coffee-rails (~> 4.2)
+  devise
+  devise-bootstrapped
   devise_token_auth
   factory_bot_rails
   jbuilder (~> 2.5)
