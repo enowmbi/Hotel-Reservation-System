@@ -41,6 +41,11 @@ gem 'devise'
 gem 'devise-bootstrapped'
 gem 'will_paginate'
 
+#Add travis 
+gem 'travis'
+#Add coveralls
+gem 'coveralls',require: false
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

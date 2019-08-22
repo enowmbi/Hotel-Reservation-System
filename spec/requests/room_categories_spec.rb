@@ -45,7 +45,7 @@ RSpec.describe "RoomCategories", type: :request do
     describe "with valid params" do 
     before(:each) do 
      room_category = FactoryBot.build(:room_category)
-     post room_categories_url, params: room_category
+     post :create, params: room_category
     end
 
     it "returns http status of created" do 
