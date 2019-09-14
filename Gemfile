@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise_token_auth'
 gem 'rails_12factor', group: :production
-gem 'devise'
+gem 'devise','>=4.7.1'
 gem 'devise-bootstrapped'
 gem 'will_paginate'
 
