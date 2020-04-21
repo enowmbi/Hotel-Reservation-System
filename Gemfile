@@ -39,7 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise_token_auth'
 gem 'rails_12factor', group: :production
 gem 'devise','>=4.7.1'
-gem 'devise-bootstrapped'
+# gem 'devise-bootstrapped'
 gem 'will_paginate'
 
 #Add travis 
@@ -47,8 +47,6 @@ gem 'travis'
 #Add coveralls
 gem 'coveralls',require: false
 
-#Add/updated nokogiri
-gem 'nokogiri','>=1.10.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
